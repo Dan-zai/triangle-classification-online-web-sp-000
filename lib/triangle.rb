@@ -24,10 +24,14 @@ class Triangle
     else 
       begin
       raise Triangle_error
+      rescue Triangle_error => error
+      error.message
       
   
   class Triangle_error < StandardError
-    
+    def message
+      "that's not a triangle!"
+    end 
   end 
   
   
