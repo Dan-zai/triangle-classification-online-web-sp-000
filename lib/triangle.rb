@@ -25,6 +25,7 @@ class Triangle
     else
     :scalene
   end 
+end
 end 
   
 
@@ -34,4 +35,6 @@ end
       "that's not a triangle!"
     end 
   end
+  
+end 
     
