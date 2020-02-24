@@ -18,5 +18,9 @@ class Triangle
     :scalene
   end 
   
+  class Triangle_error
+    
+  end 
+  
   
     
