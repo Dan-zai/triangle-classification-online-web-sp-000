@@ -25,15 +25,15 @@ class Triangle
     else
     :scalene
     
-  end 
-end
+  end
+  
 end 
   
 
   
   class Triangle_error < StandardError
     def message
-      "that's not a triangle!"
+     puts "that's not a triangle!"
     end 
   end
   
