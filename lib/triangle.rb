@@ -9,7 +9,6 @@ class Triangle
   end
   
   def kind
-    check_dat_triangle
     if a == b && b == c
     :equilateral
     elsif
