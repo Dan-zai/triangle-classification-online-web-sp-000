@@ -10,6 +10,9 @@ class Triangle
   
   def kind
     if (a == 0 || b == 0 || c == 0 )
+      raise Triangle_error
+    elsif
+    
     elsif (a == b && b == c)
     :equilateral
     elsif (a == b || b == c || c == a)
