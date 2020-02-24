@@ -18,6 +18,10 @@ class Triangle
     :scalene
   end 
   
+  def check_dat_triangle
+    if kind = :equilateral || :isosceles || :scalene
+      
+  
   class Triangle_error < StandardError
     
   end 
