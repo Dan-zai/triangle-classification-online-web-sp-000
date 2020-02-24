@@ -11,10 +11,10 @@ class Triangle
   def kind
     
     if @a == 0 || @b == 0 || @c == 0
-      raise Triangle_error
+      raise Triangleerror
       
     elsif @a + @b <= @c || @a + @c <= @b || @b + @c <= @a
-      raise Triangle_error
+      raise Triangleerror
       
     elsif @a == @b && @b == @c
     :equilateral
@@ -31,7 +31,7 @@ end
   
 
   
-  class Triangle_error < StandardError
+  class Triangleerror < StandardError
     def message
      puts "that's not a triangle!"
     end 
