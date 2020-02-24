@@ -30,12 +30,12 @@ end
       error.message
     end
   end 
+end
   
   class Triangle_error < StandardError
     def message
       "that's not a triangle!"
     end 
   end 
-  
 end 
     
