@@ -9,6 +9,10 @@ class Triangle
   end
   
   def kind
+    if a == 0 || b == 0 || c == 0
+    
+    
+    
     if a == b && b == c
     :equilateral
     elsif
@@ -19,17 +23,7 @@ class Triangle
   end 
 end 
   
-  def check_dat_triangle
-    if kind = :equilateral || :isosceles || :scalene
-      true
-    else 
-      begin
-      raise Triangle_error
-      rescue Triangle_error => error
-      error.message
-    end
-  end 
-end
+
   
   class Triangle_error < StandardError
     def message
