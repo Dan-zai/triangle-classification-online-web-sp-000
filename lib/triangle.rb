@@ -26,7 +26,8 @@ class Triangle
       raise Triangle_error
       rescue Triangle_error => error
       error.message
-      
+    end
+  end 
   
   class Triangle_error < StandardError
     def message
